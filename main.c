@@ -21,8 +21,8 @@ void empty_function()
 {
 }
 
-unsigned int function_with_parameters(unsigned int a, unsigned int b, unsigned int c, unsigned int d, unsigned int e, unsigned int f, unsigned int g,
-				      unsigned int h, unsigned int i)
+unsigned int function_with_parameters(unsigned int a, unsigned int b, unsigned int c, unsigned int d, unsigned int e, unsigned int f,
+				      unsigned int g, unsigned int h, unsigned int i)
 {
 	return a + b + c + d + e + f + g + h + i;
 }
