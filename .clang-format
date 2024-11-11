@@ -22,7 +22,7 @@ IndentWidth: 8
 InsertBraces: true
 InsertNewlineAtEOF: true
 PointerAlignment: Right
-SeparateDefinitionBlocks: Always
+SeparateDefinitionBlocks: Leave
 SortIncludes: true
 SpacesBeforeTrailingComments: 1
 SpacesInLineCommentPrefix:
