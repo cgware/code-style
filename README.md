@@ -17,8 +17,8 @@
 - **Avoid the Standard Library**  
   Minimal use of `stdlib.h`, `string.h`, or dynamic memory. Provide internal replacements or minimal abstractions where needed.
 
-- **No Dynamic Allocation**  
-  Prefer static or stack-allocated buffers and structures.
+- **Minimal Dynamic Allocation**  
+  Prefer stack-allocated buffers and structures.
 
 - **Contiguous Memory**  
   Favor data structures that use flat, contiguous memory for better cache locality.
