@@ -19,3 +19,6 @@
 
 - **No Dynamic Allocation**  
   Prefer static or stack-allocated buffers and structures.
+
+- **Contiguous Memory**  
+  Favor data structures that use flat, contiguous memory for better cache locality.
