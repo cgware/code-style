@@ -9,7 +9,7 @@
 - **Include Guards:** Use `#ifndef FILENAME_H` format with all uppercase.
 - **Indentation:** Use tabs for indentation.
 
-## Principles
+## Rules
 
 - **Zero is Initialization**  
   Zeroed structs should be valid base states.
@@ -27,10 +27,10 @@
 - **Single Responsibility Functions**  
   Each function should do one thing well. Avoid overloading with logic or branching behavior.
 
-- **Minimize Global State**  
+- **Minimal Global State**  
   Avoid global variables. Pass state explicitly.
 
-- **Prefer `const` Correctness**  
+- **`const` Correctness**  
   Use `const` for parameters and data wherever modification is not needed.
 
 - **Minimal Header Footprint**  
@@ -39,6 +39,14 @@
 - **C89/C99 Compatible Where Possible**  
   Write code that's portable across compilers and environments. Avoid compiler-specific extensions.
 
-- **Minimize Exposed Types**  
+- **Less Exposed Types**  
   Only expose types in the header that are necessary for external use.  
   Keep internal data structures and implementation details private to the source file.
+
+- **Zero Warnings**  
+  Code must compile without warnings.  
+  Use strict warning flags and treat warnings as errors to maintain code quality.
+
+- **100% Code Coverage**  
+  All code paths must be exercised by tests.  
+  Validate normal, edge, and error conditions.
